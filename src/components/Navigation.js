@@ -21,37 +21,38 @@ const Navigation = () => {
             <ul className="vertical-menu scrollspy">
               <li>
                 <a href="#home" className="active">
-                  <i className="icon-home"></i>Home
+                  <i class="fas fa-home icon-home"></i>Home
                 </a>
               </li>
               <li>
                 <a href="#about">
-                  <i className="icon-user"></i>About
+                  <i class="fas fa-user icon-user"></i>About
                 </a>
               </li>
               <li>
                 <a href="#services">
-                  <i className="icon-bulb"></i>Services
+                  <i class="fas fa-lightbulb icon-bulb"></i>Services
                 </a>
               </li>
               <li>
                 <a href="#resume">
-                  <i className="icon-graduation"></i>Resume
+                  <i class="fas fa-graduation-cap icon-graduation"></i>Resume
                 </a>
               </li>
               <li>
                 <a href="#works">
-                  <i className="icon-grid"></i>Works
+                  <i class="fas fa-briefcase icon-grid"></i>
+                  Works
                 </a>
               </li>
               <li>
                 <a href="#blog">
-                  <i className="icon-pencil"></i>Blog
+                  <i class="fas fa-pencil-alt icon-pencil"></i>Blog
                 </a>
               </li>
               <li>
                 <a href="#contact">
-                  <i className="icon-phone"></i>Contact
+                  <i class="fas fa-phone-alt icon-phone"></i>Contact
                 </a>
               </li>
             </ul>
