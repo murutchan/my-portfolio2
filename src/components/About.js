@@ -36,7 +36,7 @@ const About = () => {
             </div>
           </div>
           <a href="#" class="btn btn-default mr-3">
-            <i class="icon-cloud-download"></i>Download CV
+            <i class="fas fa-download icon-envelope"></i>Resume
           </a>
           <a href="#" class="btn btn-alt mt-2 mt-md-0 mt-xs-2">
             <i class="icon-envelope"></i>Hire me

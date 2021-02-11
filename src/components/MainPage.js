@@ -9,7 +9,7 @@ const MainPage = () => {
     >
       <div className="cta mx-auto mt-2">
         <h1 className="mt-0 mb-4">
-          I’m Askar Talantbek<span className="dot"></span>
+          I’m Askar Talant<span className="dot"></span>
         </h1>
         <p className="mb-4">
           He lay on his armour-like back, and if he lifted his head a little he
@@ -17,14 +17,14 @@ const MainPage = () => {
           stiff sections.
         </p>
         <a href="#" className="btn btn-default btn-lg mr-3">
-          <i className="icon-grid"></i>View Portfolio
+          <i className="fas fa-th-large icon-grid"></i>View Portfolio
         </a>
         <div
           className="spacer d-md-none d-lg-none d-sm-none"
           data-height="10"
         ></div>
         <a href="#" className="btn btn-border-light btn-lg">
-          <i className="icon-envelope"></i>Hire me
+          <i className="fas fa-envelope icon-envelope"></i>Contact me
         </a>
       </div>
       <div className="overlay"></div>
