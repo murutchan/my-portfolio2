@@ -4,7 +4,9 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import MainPage from "./components/MainPage";
 import About from "./components/About";
-import Skills from "./components/skills";
+import Skills from "./components/Skills";
+import Experience from "./components/Experience";
+import Testimonials from "./components/Testimonials";
 import "bootswatch/dist/flatly/bootstrap.min.css";
 import "./app.styles.scss";
 
@@ -17,6 +19,8 @@ const App = () => {
           <MainPage />
           <About />
           <Skills />
+          <Experience />
+          <Testimonials />
         </main>
         App
       </div>
