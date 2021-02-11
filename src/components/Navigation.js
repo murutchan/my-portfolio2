@@ -101,10 +101,14 @@ const Navigation = () => {
           <span></span>
         </button>
         <a href="index.html" class="logo">
-          <img src="https://via.placeholder.com/70x70" alt="Bako Doe" />
+          <img
+            src="https://media-exp1.licdn.com/dms/image/C5603AQG6hbaLDyRkag/profile-displayphoto-shrink_800_800/0/1517810406882?e=1618444800&v=beta&t=qNwKeAH6ClrpxZxrmVN7mfQclb4fLf9GWPuwb1H7GB8"
+            alt="portrait "
+            className="rounded ml-3"
+          />
         </a>
         <a href="index.html" class="site-title dot ml-2">
-          Bako Doe
+          Askar Talant
         </a>
       </div>
     </Fragment>

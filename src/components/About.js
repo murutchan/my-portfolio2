@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -45,9 +46,9 @@ const About = () => {
           <a href="#" class="btn btn-default mr-3">
             <i class="fas fa-download icon-envelope"></i>Resume
           </a>
-          <a href="#" class="btn btn-alt mt-2 mt-md-0 mt-xs-2">
-            <i class="icon-envelope"></i>Hire me
-          </a>
+          <Link to="/about" class="btn btn-alt mt-2 mt-md-0 mt-xs-2">
+            <i class="fas fa-angle-double-right icon-envelope"></i>more about me
+          </Link>
         </div>
       </div>
     </section>

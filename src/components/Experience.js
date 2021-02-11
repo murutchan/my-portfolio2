@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Experience = () => {
   return (
@@ -44,6 +45,14 @@ const Experience = () => {
           </div>
         </div>
         <span class="timeline-line"></span>
+        <Link
+          to="/experience"
+          class="btn btn-alt float-right"
+          style={{ marginTop: "35px" }}
+        >
+          <i class="fas fa-angle-double-right icon-envelope"></i>
+          more about experience
+        </Link>
       </div>
     </section>
   );
