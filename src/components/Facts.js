@@ -10,30 +10,30 @@ const Facts = () => {
       <div class="row relative z-1">
         <div class="col-md-3 col-sm-6">
           <div class="fact-item text-center">
-            <i class="icon-like icon-circle"></i>
-            <h2 class="count">157</h2>
+            <i class="fas fa-thumbs-up icon-circle"></i>
+            <h2 class="count">36</h2>
             <span>Projects completed</span>
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="fact-item text-center">
-            <i class="icon-cup icon-circle"></i>
+            <i class="fas fa-coffee icon-circle"></i>
             <h2 class="count">2765</h2>
             <span>Cup of coffee</span>
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="fact-item text-center">
-            <i class="icon-emotsmile icon-circle"></i>
-            <h2 class="count">350</h2>
+            <i class="fas fa-smile icon-circle"></i>
+            <h2 class="count">12</h2>
             <span>Happy customers</span>
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="fact-item text-center">
-            <i class="icon-trophy icon-circle"></i>
+            <i class="fas fa-pen-fancy icon-circle"></i>
             <h2 class="count">29</h2>
-            <span>Awards won</span>
+            <span>Posts</span>
           </div>
         </div>
       </div>

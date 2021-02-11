@@ -13,9 +13,9 @@ const Navigation = () => {
             <img src="https://via.placeholder.com/70x70" alt="Bako Doe" />
           </Link>
           <Link to="/" className="site-title dot mt-3">
-            Bako Doe
+            Askar
           </Link>
-          <span className="site-slogan">Web Developer</span>
+          <span className="site-slogan">Web developer</span>
 
           <nav>
             <ul className="vertical-menu scrollspy">
@@ -36,7 +36,7 @@ const Navigation = () => {
               </li>
               <li>
                 <a href="#resume">
-                  <i class="fas fa-graduation-cap icon-graduation"></i>Resume
+                  <i class="fas fa-user-graduate icon-graduation"></i>Resume
                 </a>
               </li>
               <li>

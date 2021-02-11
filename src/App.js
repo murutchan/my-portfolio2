@@ -9,6 +9,7 @@ import Experience from "./components/Experience";
 import Testimonials from "./components/Testimonials";
 import ContactForm from "./components/ContactForm";
 import Facts from "./components/Facts";
+import Services from "./components/Services";
 import "bootswatch/dist/flatly/bootstrap.min.css";
 import "./app.styles.scss";
 
@@ -23,6 +24,7 @@ const App = () => {
           <Skills />
           <Experience />
           <Facts />
+          <Services />
           <Testimonials />
           <ContactForm />
         </main>
