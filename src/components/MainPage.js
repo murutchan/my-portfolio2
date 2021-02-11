@@ -5,16 +5,15 @@ const MainPage = () => {
     <section
       className="hero background parallax shadow-dark d-flex align-items-center"
       id="home"
-      data-image-src="https://via.placeholder.com/900x600"
+      data-image-src="https://media-exp1.licdn.com/dms/image/C5603AQG6hbaLDyRkag/profile-displayphoto-shrink_800_800/0/1517810406882?e=1618444800&v=beta&t=qNwKeAH6ClrpxZxrmVN7mfQclb4fLf9GWPuwb1H7GB8"
     >
       <div className="cta mx-auto mt-2">
         <h1 className="mt-0 mb-4">
           I’m Askar Talant<span className="dot"></span>
         </h1>
         <p className="mb-4">
-          He lay on his armour-like back, and if he lifted his head a little he
-          could see his brown belly, slightly domed and divided by arches into
-          stiff sections.
+          I am a fullstack web developer. My main focus right now is making MERN
+          Stack applications. I love REACT.JS very much.
         </p>
         <a href="#" className="btn btn-default btn-lg mr-3">
           <i className="fas fa-th-large icon-grid"></i>View Portfolio
