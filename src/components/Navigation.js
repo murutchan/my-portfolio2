@@ -10,7 +10,10 @@ const Navigation = () => {
         </button>
         <div className="header-inner d-flex align-items-start flex-column">
           <Link>
-            <img src="https://via.placeholder.com/70x70" alt="Bako Doe" />
+            <img
+              src="https://media-exp1.licdn.com/dms/image/C5603AQG6hbaLDyRkag/profile-displayphoto-shrink_800_800/0/1517810406882?e=1618444800&v=beta&t=qNwKeAH6ClrpxZxrmVN7mfQclb4fLf9GWPuwb1H7GB8"
+              style={{ width: "70px", height: "70px", borderRadius: "50%" }}
+            />
           </Link>
           <Link to="/" className="site-title dot mt-3">
             Askar
