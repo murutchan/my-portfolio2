@@ -1,103 +1,124 @@
-import React from "react";
+import React, { useState } from "react";
 
 const ContactForm = () => {
-  return (
-    <section id="contact" class="shadow-blue white-bg padding">
-      <h3 class="section-title">Get in touch</h3>
-      <div class="spacer" data-height="80"></div>
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
 
-      <div class="row">
-        <div class="col-md-4 mb-4 mb-md-0">
-          <div class="contact-info mb-5">
-            <i class="icon-phone"></i>
-            <div class="details">
+  const [successMessage, setSuccessMessage] = useState(false);
+
+  const onFormSubmit = (e) => {
+    e.preventDefault();
+    setFormData({ ...formData });
+    setSuccessMessage(true);
+  };
+  const onChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  return (
+    <section id="contact" className="shadow-blue white-bg padding">
+      <h3 className="section-title">Get in touch</h3>
+      <div className="spacer" data-height="80"></div>
+
+      <div className="row">
+        <div className="col-md-4 mb-4 mb-md-0">
+          <div className="contact-info mb-5">
+            <i className="icon-phone"></i>
+            <div className="details">
               <h5>Phone</h5>
-              <span>+44 1632 960428</span>
+              <span>+17737990076</span>
             </div>
           </div>
-          <div class="contact-info mb-5">
-            <i class="icon-envelope"></i>
-            <div class="details">
+          <div className="contact-info mb-5">
+            <i className="icon-envelope"></i>
+            <div className="details">
               <h5>Email address</h5>
-              <span>hello@bako.com</span>
+              <span>murutchan@gmail.com</span>
             </div>
           </div>
-          <div class="contact-info">
-            <i class="icon-location-pin"></i>
-            <div class="details">
+          <div className="contact-info">
+            <i className="icon-location-pin"></i>
+            <div className="details">
               <h5>Location</h5>
-              <span>West Palm Beach, 4669 Travis Street</span>
+              <span>USA</span>
             </div>
           </div>
         </div>
 
-        <div class="col-md-8">
+        <div className="col-md-8">
           <form
             id="contact-form"
-            class="contact-form"
-            method="post"
-            action="form/contact.php"
+            className="contact-form"
+            onSubmit={(e) => onFormSubmit(e)}
           >
-            <div class="messages"></div>
+            <div className="messages"></div>
 
-            <div class="row">
-              <div class="column col-md-6">
-                <div class="form-group">
+            <div className="row">
+              <div className="column col-md-6">
+                <div className="form-group">
                   <input
                     type="text"
-                    class="form-control"
-                    name="InputName"
+                    className="form-control"
+                    name="name"
                     id="InputName"
                     placeholder="Your name"
-                    required="required"
+                    required
                     data-error="Name is required."
+                    onChange={(e) => onChange(e)}
                   />
-                  <div class="help-block with-errors"></div>
+                  <div className="help-block with-errors"></div>
                 </div>
               </div>
 
-              <div class="column col-md-6">
-                <div class="form-group">
+              <div className="column col-md-6">
+                <div className="form-group">
                   <input
                     type="email"
-                    class="form-control"
+                    className="form-control"
                     id="InputEmail"
-                    name="InputEmail"
+                    name="email"
                     placeholder="Email address"
-                    required="required"
+                    required
                     data-error="Email is required."
+                    onChange={(e) => onChange(e)}
                   />
-                  <div class="help-block with-errors"></div>
+                  <div className="help-block with-errors"></div>
                 </div>
               </div>
 
-              <div class="column col-md-12">
-                <div class="form-group">
+              <div className="column col-md-12">
+                <div className="form-group">
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     id="InputSubject"
-                    name="InputSubject"
+                    name="subject"
                     placeholder="Subject"
-                    required="required"
+                    required
                     data-error="Subject is required."
+                    onChange={(e) => onChange(e)}
                   />
-                  <div class="help-block with-errors"></div>
+                  <div className="help-block with-errors"></div>
                 </div>
               </div>
 
-              <div class="column col-md-12">
-                <div class="form-group">
+              <div className="column col-md-12">
+                <div className="form-group">
                   <textarea
-                    name="InputMessage"
+                    name="message"
                     id="InputMessage"
-                    class="form-control"
+                    className="form-control"
                     rows="5"
                     placeholder="Message"
-                    required="required"
+                    required
                     data-error="Message is required."
+                    onChange={(e) => onChange(e)}
                   ></textarea>
-                  <div class="help-block with-errors"></div>
+                  <div className="help-block with-errors"></div>
                 </div>
               </div>
             </div>
@@ -107,9 +128,10 @@ const ContactForm = () => {
               name="submit"
               id="submit"
               value="Submit"
-              class="btn btn-default"
+              className="btn btn-default"
             >
-              <i class="icon-paper-plane"></i>Send Message
+              <i className="fas fa-paper-plane icon-paper-plane"></i>
+              {successMessage ? "Message sent" : "Send Message"}
             </button>
           </form>
         </div>
