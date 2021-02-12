@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const MainPage = () => {
   return (
@@ -15,14 +16,14 @@ const MainPage = () => {
           I am a fullstack web developer. My main focus right now is making MERN
           Stack applications. I love REACT.JS very much.
         </p>
-        <a href="#" className="btn btn-default btn-lg mr-3">
+        <Link to="/portfolio" className="btn btn-default btn-lg mr-3">
           <i className="fas fa-th-large icon-grid"></i>View Portfolio
-        </a>
+        </Link>
         <div
           className="spacer d-md-none d-lg-none d-sm-none"
           data-height="10"
         ></div>
-        <a href="#" className="btn btn-border-light btn-lg">
+        <a href="#contact" className="btn btn-border-light btn-lg">
           <i className="fas fa-envelope icon-envelope"></i>Contact me
         </a>
       </div>

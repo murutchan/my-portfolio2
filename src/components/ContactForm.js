@@ -128,7 +128,7 @@ const ContactForm = () => {
               name="submit"
               id="submit"
               value="Submit"
-              className="btn btn-default"
+              className={successMessage ? "btn btn-success" : "btn btn-default"}
             >
               <i className="fas fa-paper-plane icon-paper-plane"></i>
               {successMessage ? "Message sent" : "Send Message"}
