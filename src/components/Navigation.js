@@ -68,6 +68,11 @@ const Navigation = () => {
             <ul className="social-icons list-inline">
               <li className="list-inline-item">
                 <a href="#">
+                  <i className="fab fa-github"></i>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="#">
                   <i className="fab fa-facebook-f"></i>
                 </a>
               </li>
@@ -84,11 +89,6 @@ const Navigation = () => {
               <li className="list-inline-item">
                 <a href="#">
                   <i className="fab fa-youtube"></i>
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="#">
-                  <i className="fab fa-dribbble"></i>
                 </a>
               </li>
             </ul>
