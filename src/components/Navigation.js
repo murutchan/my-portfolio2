@@ -21,9 +21,12 @@ const Navigation = () => {
           <span className="site-slogan">Web developer</span>
 
           <nav>
-            <ul className="vertical-menu scrollspy">
+            <ul
+              className="vertical-menu scrollspy"
+              style={{ fontSize: "17px" }}
+            >
               <li>
-                <a href="#home" className="active">
+                <a to="#home" className="active">
                   <i class="fas fa-home icon-home"></i>Home
                 </a>
               </li>
@@ -55,7 +58,7 @@ const Navigation = () => {
               </li>
               <li>
                 <a href="#contact">
-                  <i class="fas fa-phone-alt icon-phone"></i>Contact
+                  <i class="fas fa-phone-alt icon-phone mb-5"></i>Contact
                 </a>
               </li>
             </ul>
