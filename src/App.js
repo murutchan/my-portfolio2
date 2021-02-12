@@ -6,7 +6,7 @@ import Navigation from "./components/Navigation";
 import HomePage from "./components/pages/HomePage";
 import AboutPage from "./components/pages/AboutPage";
 import ExperiencePage from "./components/pages/ExperiencePage";
-import PortfolioPage from "./components/pages/ExperiencePage";
+import PortfolioPage from "./components/pages/PortfolioPage";
 import "bootswatch/dist/flatly/bootstrap.min.css";
 import "./app.styles.scss";
 

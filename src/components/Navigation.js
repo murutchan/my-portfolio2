@@ -26,7 +26,7 @@ const Navigation = () => {
               style={{ fontSize: "17px" }}
             >
               <li>
-                <a to="#home" className="active">
+                <a href="#home" className="active">
                   <i class="fas fa-home icon-home"></i>Home
                 </a>
               </li>
@@ -37,12 +37,12 @@ const Navigation = () => {
               </li>
               <li>
                 <a href="#services">
-                  <i class="fas fa-lightbulb icon-bulb"></i>Services
+                  <i class="fas fa-lightbulb icon-bulb"></i>Process
                 </a>
               </li>
               <li>
                 <a href="#resume">
-                  <i class="fas fa-user-graduate icon-graduation"></i>Resume
+                  <i class="fas fa-user-graduate icon-graduation"></i>Experience
                 </a>
               </li>
               <li>

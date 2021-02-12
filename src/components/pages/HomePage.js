@@ -7,7 +7,7 @@ import Experience from "../Experience";
 import Testimonials from "../Testimonials";
 import ContactForm from "../ContactForm";
 import Facts from "../Facts";
-import Services from "../Services";
+import Process from "../Process";
 
 const HomePage = () => {
   return (
@@ -17,7 +17,7 @@ const HomePage = () => {
       <Skills />
       <Experience />
       <Facts />
-      <Services />
+      <Process />
       <Testimonials />
       <ContactForm />
     </main>

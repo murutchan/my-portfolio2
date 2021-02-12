@@ -17,7 +17,7 @@ const Skills = () => {
       <h3 class="section-title">My skills</h3>
       <div class="spacer" data-height="80"></div>
       <p class="mb-0">
-        I am passionate about creating a websites that help businesses, make
+        I am passionate about creating websites that help businesses, make
         people's life easier and find creative solutions for problems &
         challenges.
       </p>

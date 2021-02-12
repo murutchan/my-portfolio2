@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Experience = () => {
   return (
     <section id="resume" class="shadow-blue white-bg padding">
-      <h3 class="section-title">Experience</h3>
+      <h3 class="section-title">Experience & Education</h3>
       <div class="spacer" data-height="80"></div>
 
       <div class="timeline">
@@ -50,8 +50,8 @@ const Experience = () => {
           class="btn btn-alt float-right"
           style={{ marginTop: "35px" }}
         >
-          <i class="fas fa-angle-double-right icon-envelope"></i>
           more about experience
+          <i class="fas fa-angle-double-right icon-envelope ml-2"></i>
         </Link>
       </div>
     </section>

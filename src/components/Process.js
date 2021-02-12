@@ -1,6 +1,6 @@
 import React from "react";
 
-const Services = () => {
+const Process = () => {
   return (
     <section id="services" className="shadow-blue white-bg padding">
       <h3 className="section-title">My work process</h3>
@@ -12,7 +12,8 @@ const Services = () => {
             <i className="fas fa-search icon-simple"></i>
             <h4 className="my-3">Research</h4>
             <p className="mb-0">
-              Lorem ipsum dolor sit amet consectetuer elit.
+              Will research for current trends. Analyze different cases and
+              implementations.
             </p>
           </div>
           <div className="spacer" data-height="20"></div>
@@ -23,7 +24,8 @@ const Services = () => {
             <i className="fas fa-drafting-compass icon-simple"></i>
             <h4 className="my-3">Sketch</h4>
             <p className="mb-0">
-              Lorem ipsum dolor sit amet consectetuer elit.
+              Its a process of brain storming and making initial visualization
+              of ideas.
             </p>
           </div>
           <div className="spacer" data-height="20"></div>
@@ -34,7 +36,7 @@ const Services = () => {
             <i className="fas fa-palette icon-simple"></i>
             <h4 className="my-3">Design</h4>
             <p className="mb-0">
-              Lorem ipsum dolor sit amet consectetuer elit.
+              After sketch, its time to give more details, shapes and colors.
             </p>
           </div>
           <div className="spacer" data-height="20"></div>
@@ -45,7 +47,8 @@ const Services = () => {
             <i className="fas fa-code icon-simple"></i>
             <h4 className="my-3">Development</h4>
             <p className="mb-0">
-              Lorem ipsum dolor sit amet consectetuer elit.
+              Its time to code. Long and creative process. Important to create
+              scalable and robust app
             </p>
           </div>
           <div className="spacer d-md-none d-lg-none" data-height="20"></div>
@@ -56,7 +59,8 @@ const Services = () => {
             <i className="fas fa-spell-check icon-simple"></i>
             <h4 className="my-3">Test</h4>
             <p className="mb-0">
-              Lorem ipsum dolor sit amet consectetuer elit.
+              Testing is a crucial part of development. Will test everything
+              thoroughly.
             </p>
           </div>
           <div className="spacer d-md-none d-lg-none" data-height="20"></div>
@@ -67,7 +71,8 @@ const Services = () => {
             <i className="fas fa-rocket icon-simple"></i>
             <h4 className="my-3">Deploy</h4>
             <p className="mb-0">
-              Lorem ipsum dolor sit amet consectetuer elit.
+              We know its not the end.Rather Its just the beginning of
+              application's life.
             </p>
           </div>
         </div>
@@ -76,4 +81,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Process;

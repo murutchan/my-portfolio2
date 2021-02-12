@@ -6,7 +6,7 @@ const MainPage = () => {
     <section
       className="hero background parallax shadow-dark d-flex align-items-center"
       id="home"
-      data-image-src="https://media-exp1.licdn.com/dms/image/C5603AQG6hbaLDyRkag/profile-displayphoto-shrink_800_800/0/1517810406882?e=1618444800&v=beta&t=qNwKeAH6ClrpxZxrmVN7mfQclb4fLf9GWPuwb1H7GB8"
+      data-image-src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2252&q=80"
     >
       <div className="cta mx-auto mt-2">
         <h1 className="mt-0 mb-4">
