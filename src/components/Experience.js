@@ -10,37 +10,37 @@ const Experience = () => {
       <div class="timeline">
         <div class="entry">
           <div class="title">
-            <span>2019 - Present</span>
+            <span>2018-present</span>
           </div>
           <div class="body">
-            <h4 class="mt-0">Academic Degree</h4>
+            <h4 class="mt-0">Software engineer</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean
-              commodo ligula eget dolor aenean massa.
+              I've worked at the company called Dunder Mifflin. It is a paper
+              company, where I was maintaining their website.
             </p>
           </div>
         </div>
         <div class="entry">
           <div class="title">
-            <span>2018 - 2015</span>
+            <span>2017 - 2018</span>
           </div>
           <div class="body">
-            <h4 class="mt-0">Bachelor’s Degree</h4>
+            <h4 class="mt-0">Coding Bootcamp</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean
-              commodo ligula eget dolor aenean massa.
+              I went to a coding bootcamp. Where I learnt industry technologies
             </p>
           </div>
         </div>
         <div class="entry">
           <div class="title">
-            <span>2015 - 2012</span>
+            <span>2016 - 2017</span>
           </div>
           <div class="body">
-            <h4 class="mt-0">Honours Degree</h4>
+            <h4 class="mt-0">Personal Banker</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean
-              commodo ligula eget dolor aenean massa.
+              I started working at chase bank as a teller and was promoted to
+              personal banker. I learn a lot about customer service, how to be
+              careful with confidential information and finance.
             </p>
           </div>
         </div>

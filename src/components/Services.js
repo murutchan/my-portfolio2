@@ -2,61 +2,73 @@ import React from "react";
 
 const Services = () => {
   return (
-    <section id="services" class="shadow-blue white-bg padding">
-      <h3 class="section-title">Services</h3>
-      <div class="spacer" data-height="80"></div>
+    <section id="services" className="shadow-blue white-bg padding">
+      <h3 className="section-title">My work process</h3>
+      <div className="spacer" data-height="80"></div>
 
-      <div class="row">
-        <div class="col-md-4 col-sm-6">
-          <div class="service-item text-center">
-            <i class="fas fa-globe icon-simple"></i>
-            <h4 class="my-3">Development</h4>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetuer elit.</p>
+      <div className="row process-p">
+        <div className="col-md-4 col-sm-6">
+          <div className="service-item text-center">
+            <i className="fas fa-search icon-simple"></i>
+            <h4 className="my-3">Research</h4>
+            <p className="mb-0">
+              Lorem ipsum dolor sit amet consectetuer elit.
+            </p>
           </div>
-          <div class="spacer" data-height="20"></div>
+          <div className="spacer" data-height="20"></div>
         </div>
 
-        <div class="col-md-4 col-sm-6">
-          <div class="service-item text-center">
-            <i class="fas fa-palette icon-simple"></i>
-            <h4 class="my-3">Design</h4>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetuer elit.</p>
+        <div className="col-md-4 col-sm-6">
+          <div className="service-item text-center">
+            <i className="fas fa-drafting-compass icon-simple"></i>
+            <h4 className="my-3">Sketch</h4>
+            <p className="mb-0">
+              Lorem ipsum dolor sit amet consectetuer elit.
+            </p>
           </div>
-          <div class="spacer" data-height="20"></div>
+          <div className="spacer" data-height="20"></div>
         </div>
 
-        <div class="col-md-4 col-sm-6">
-          <div class="service-item text-center">
-            <i class="fas fa-map-signs icon-simple"></i>
-            <h4 class="my-3">Advertising</h4>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetuer elit.</p>
+        <div className="col-md-4 col-sm-6">
+          <div className="service-item text-center">
+            <i className="fas fa-palette icon-simple"></i>
+            <h4 className="my-3">Design</h4>
+            <p className="mb-0">
+              Lorem ipsum dolor sit amet consectetuer elit.
+            </p>
           </div>
-          <div class="spacer" data-height="20"></div>
+          <div className="spacer" data-height="20"></div>
         </div>
 
-        <div class="col-md-4 col-sm-6">
-          <div class="service-item text-center">
-            <i class="fas fa-rocket icon-simple"></i>
-            <h4 class="my-3">SEO</h4>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetuer elit.</p>
+        <div className="col-md-4 col-sm-6">
+          <div className="service-item text-center">
+            <i className="fas fa-code icon-simple"></i>
+            <h4 className="my-3">Development</h4>
+            <p className="mb-0">
+              Lorem ipsum dolor sit amet consectetuer elit.
+            </p>
           </div>
-          <div class="spacer d-md-none d-lg-none" data-height="20"></div>
+          <div className="spacer d-md-none d-lg-none" data-height="20"></div>
         </div>
 
-        <div class="col-md-4 col-sm-6">
-          <div class="service-item text-center">
-            <i class="fas fa-lock icon-simple"></i>
-            <h4 class="my-3">Data Security</h4>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetuer elit.</p>
+        <div className="col-md-4 col-sm-6">
+          <div className="service-item text-center">
+            <i className="fas fa-spell-check icon-simple"></i>
+            <h4 className="my-3">Test</h4>
+            <p className="mb-0">
+              Lorem ipsum dolor sit amet consectetuer elit.
+            </p>
           </div>
-          <div class="spacer d-md-none d-lg-none" data-height="20"></div>
+          <div className="spacer d-md-none d-lg-none" data-height="20"></div>
         </div>
 
-        <div class="col-md-4 col-sm-6">
-          <div class="service-item text-center">
-            <i class="fas fa-headset icon-simple"></i>
-            <h4 class="my-3">Support</h4>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetuer elit.</p>
+        <div className="col-md-4 col-sm-6">
+          <div className="service-item text-center">
+            <i className="fas fa-rocket icon-simple"></i>
+            <h4 className="my-3">Deploy</h4>
+            <p className="mb-0">
+              Lorem ipsum dolor sit amet consectetuer elit.
+            </p>
           </div>
         </div>
       </div>
