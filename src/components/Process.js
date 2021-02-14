@@ -45,7 +45,7 @@ const Process = () => {
         <div className="col-md-4 col-sm-6">
           <div className="service-item text-center">
             <i className="fas fa-code icon-simple"></i>
-            <h4 className="my-3">Development</h4>
+            <h4 className="my-3">Develop</h4>
             <p className="mb-0">
               Its time to code. Long and creative process. Important to create
               scalable and robust app
