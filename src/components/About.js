@@ -28,7 +28,7 @@ const About = () => {
           <div class="row my-4">
             <div class="col-md-6">
               <p class="mb-2">
-                Age: <span class="text-dark">30</span>
+                Age: <span class="text-dark">29</span>
               </p>
               <p class="mb-0">
                 Married: <span class="text-dark">Yes</span>

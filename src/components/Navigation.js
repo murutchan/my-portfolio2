@@ -67,22 +67,12 @@ const Navigation = () => {
           <div className="footer mt-auto">
             <ul className="social-icons list-inline">
               <li className="list-inline-item">
-                <a href="#">
+                <a href="https://github.com/murutchan" target="blank">
                   <i className="fab fa-github"></i>
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="#">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="#">
-                  <i className="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="#">
+                <a href="https://instagram.com" target="blank">
                   <i className="fab fa-instagram"></i>
                 </a>
               </li>

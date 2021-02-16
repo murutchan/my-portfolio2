@@ -18,7 +18,9 @@ const AboutPage = () => {
               solving it. So I realized that being a software engineer helps a
               lot solving problems and make life easier. At the beginning I
               started out of curiosity. Then slowly but surely I realized that I
-              want to become a pro engineer.
+              want to become a pro engineer. IT's been a big dream to become an
+              engineer. It was a ultimate goal so I worked hard and tried
+              everyday.
             </p>
           </div>
         </div>
