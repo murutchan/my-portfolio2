@@ -88,21 +88,28 @@ const Navigation = () => {
         </div>
       </header>
       <div class="mobile-header py-2 px-3 mt-4">
-        <button class="menu-icon mr-2">
+        <button
+          class="menu-icon mr-2"
+          onClick={() => (
+            <Fragment>
+              <a>Link</a>
+            </Fragment>
+          )}
+        >
           <span></span>
           <span></span>
           <span></span>
         </button>
-        <a href="index.html" class="logo">
+        <Link to="/" class="logo">
           <img
             src="https://media-exp1.licdn.com/dms/image/C5603AQG6hbaLDyRkag/profile-displayphoto-shrink_800_800/0/1517810406882?e=1618444800&v=beta&t=qNwKeAH6ClrpxZxrmVN7mfQclb4fLf9GWPuwb1H7GB8"
             alt="portrait "
             className="rounded ml-3"
           />
-        </a>
-        <a href="index.html" class="site-title dot ml-2">
+        </Link>
+        <Link to="/" class="site-title dot ml-2">
           Askar Talant
-        </a>
+        </Link>
       </div>
     </Fragment>
   );
