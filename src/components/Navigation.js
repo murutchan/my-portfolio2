@@ -1,7 +1,9 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
+import MobileNavigation from "./MobileNavigation";
 
 const Navigation = () => {
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <Fragment>
       <header className="left float-left shadow-dark" id="header">
@@ -87,16 +89,14 @@ const Navigation = () => {
           </div>
         </div>
       </header>
-      <div class="mobile-header py-2 px-3 mt-4">
+      <div className="mobile-header py-2 px-3 my-1 sticky-top">
+        <span></span>
         <button
-          class="menu-icon mr-2"
-          onClick={() => (
-            <Fragment>
-              <a>Link</a>
-            </Fragment>
-          )}
+          className="menu-icon mr-2"
+          onClick={() => {
+            setShowMenu(!showMenu);
+          }}
         >
-          <span></span>
           <span></span>
           <span></span>
         </button>
@@ -110,6 +110,7 @@ const Navigation = () => {
         <Link to="/" class="site-title dot ml-2">
           Askar Talant
         </Link>
+        {showMenu ? <MobileNavigation /> : ""}
       </div>
     </Fragment>
   );
