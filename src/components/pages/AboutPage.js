@@ -12,15 +12,19 @@ const AboutPage = () => {
           <div class="col-md-9">
             <h2 class="mt-4 mt-md-0 mb-4 section-title">my journey to IT </h2>
             <div class="spacer" data-height="80"></div>
+            <h3>early years</h3>
             <p class="mb-0 text-dark">
-              A little about myself. I am an ex taxi driver, ex truck driver and
-              ex personal banker. When I see problems, I always think about
-              solving it. So I realized that being a software engineer helps a
-              lot solving problems and make life easier. At the beginning I
-              started out of curiosity. Then slowly but surely I realized that I
-              want to become a pro engineer. IT's been a big dream to become an
-              engineer. It was a ultimate goal so I worked hard and tried
-              everyday.
+              My name is Askar. I was born in a fall of 1991 in an election day
+              of our first president. It was the time when USSR collapsed and we
+              suddenly became an independent country. I think, my parents were
+              really excited about that, they decided to name me after the first
+              president Askar Akaev. So the name “Askar” was a good name till
+              2005. Because in 2005 there was a revolution and our first
+              president escaped to Russia. Since then probably people dont give
+              this name to their children. Briefly about my life before
+              immigration to USA. I went to Turkish high school. I graduated
+              from highschool with all “A”s. After I studied finance in a
+              university. And a little after graduating, I came to US.
             </p>
           </div>
         </div>

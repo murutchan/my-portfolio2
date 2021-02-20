@@ -18,12 +18,15 @@ const About = () => {
         <div class="col-md-9">
           <h2 class="mt-4 mt-md-0 mb-4">Helloou,</h2>
           <p class="mb-0">
-            A little about myself. I am an ex taxi driver, ex truck driver and
-            ex personal banker. When I see problems, I always think about
-            solving it. So I realized that being a software engineer helps a lot
-            solving problems and make life easier. At the beginning I started
-            out of curiosity. Then slowly but surely I realized that I want to
-            become a pro engineer.
+            My name is Askar. I was born in a fall of 1991 in an election day of
+            our first president. It was the time when USSR collapsed and we
+            suddenly became an independent country. I think, my parents were
+            really excited about that, they decided to name me after the first
+            president Askar Akaev. So the name “Askar” was a good name till
+            2005. Because in 2005...
+            <Link to="/about" className="text-primary bg-warning">
+              <em> read more </em>
+            </Link>
           </p>
           <div class="row my-4">
             <div class="col-md-6">
@@ -47,7 +50,7 @@ const About = () => {
             <i class="fas fa-download icon-envelope"></i>Resume
           </a>
           <Link to="/about" class="btn btn-alt mt-2 mt-md-0 mt-xs-2">
-            <i class="fas fa-angle-double-right icon-envelope"></i>more about me
+            <i class="fas fa-angle-double-right icon-envelope"></i>read more
           </Link>
         </div>
       </div>

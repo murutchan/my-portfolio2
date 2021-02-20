@@ -13,8 +13,9 @@ const MainPage = () => {
           I’m Askar Talant<span className="dot"></span>
         </h1>
         <p className="mb-4">
-          I am a fullstack web developer. My main focus right now is making MERN
-          Stack applications. I love REACT.JS very much.
+          I am a web developer with 3+ years of experience. My expertise are in
+          React.js, Javascript, SASS, HTML5 & CSS3 and I am comfortable working
+          with Node.js, mongoDB, express.js.
         </p>
         <Link to="/portfolio" className="btn btn-default btn-lg mr-3">
           <i className="fas fa-th-large icon-grid"></i>View Portfolio
