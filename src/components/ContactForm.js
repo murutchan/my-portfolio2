@@ -51,6 +51,9 @@ const ContactForm = () => {
 
         <div className="col-md-8">
           <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
             id="contact-form"
             className="contact-form"
             onSubmit={(e) => onFormSubmit(e)}

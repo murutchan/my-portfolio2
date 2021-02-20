@@ -14,9 +14,9 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <section id="testimonials" class="shadow-blue white-bg padding">
-      <h3 class="section-title">Testimonials</h3>
-      <div class="spacer" data-height="97"></div>
+    <section id="testimonials" className="shadow-blue white-bg padding">
+      <h3 className="section-title">Testimonials</h3>
+      <div className="spacer" data-height="97"></div>
     </section>
   );
 };

@@ -11,7 +11,7 @@ const Navigation = () => {
           <span aria-hidden="true">&times;</span>
         </button>
         <div className="header-inner d-flex align-items-start flex-column">
-          <Link>
+          <Link to="/">
             <img
               src="https://media-exp1.licdn.com/dms/image/C5603AQG6hbaLDyRkag/profile-displayphoto-shrink_800_800/0/1517810406882?e=1618444800&v=beta&t=qNwKeAH6ClrpxZxrmVN7mfQclb4fLf9GWPuwb1H7GB8"
               style={{ width: "70px", height: "70px", borderRadius: "50%" }}
@@ -29,34 +29,35 @@ const Navigation = () => {
             >
               <li>
                 <Link to="/" className="active">
-                  <i class="fas fa-home icon-home"></i>Home
+                  <i className="fas fa-home icon-home"></i>Home
                 </Link>
               </li>
               <li>
                 <Link to="/about">
-                  <i class="fas fa-user icon-user"></i>About
+                  <i className="fas fa-user icon-user"></i>About
                 </Link>
               </li>
               <li>
                 <a href="#services">
-                  <i class="fas fa-lightbulb icon-bulb"></i>Process
+                  <i className="fas fa-lightbulb icon-bulb"></i>Process
                 </a>
               </li>
               <li>
                 <Link to="/experience">
-                  <i class="fas fa-user-graduate icon-graduation"></i>Experience
+                  <i className="fas fa-user-graduate icon-graduation"></i>
+                  Experience
                 </Link>
               </li>
               <li>
                 <Link to="/portfolio">
-                  <i class="fas fa-briefcase icon-grid"></i>
+                  <i className="fas fa-briefcase icon-grid"></i>
                   Works
                 </Link>
               </li>
 
               <li>
                 <a href="#contact">
-                  <i class="fas fa-phone-alt icon-phone mb-5"></i>Contact
+                  <i className="fas fa-phone-alt icon-phone mb-5"></i>Contact
                 </a>
               </li>
             </ul>
@@ -96,14 +97,14 @@ const Navigation = () => {
           <span></span>
           <span></span>
         </button>
-        <Link to="/" class="logo">
+        <Link to="/" className="logo">
           <img
             src="https://media-exp1.licdn.com/dms/image/C5603AQG6hbaLDyRkag/profile-displayphoto-shrink_800_800/0/1517810406882?e=1618444800&v=beta&t=qNwKeAH6ClrpxZxrmVN7mfQclb4fLf9GWPuwb1H7GB8"
             alt="portrait "
             className="rounded ml-3"
           />
         </Link>
-        <Link to="/" class="site-title dot ml-2">
+        <Link to="/" className="site-title dot ml-2">
           Askar Talant
         </Link>
         {showMenu ? <MobileNavigation /> : ""}

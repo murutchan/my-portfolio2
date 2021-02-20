@@ -13,7 +13,7 @@ import "./app.styles.scss";
 const App = () => {
   return (
     <Router>
-      <div class="site-wrapper">
+      <div className="site-wrapper">
         <Navigation />
         <Switch>
           <Route exact path="/" component={HomePage} />

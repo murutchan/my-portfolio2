@@ -13,22 +13,22 @@ const Skills = () => {
     "AWS",
   ];
   return (
-    <section id="skills" class="shadow-blue white-bg padding">
-      <h3 class="section-title">My skills</h3>
-      <div class="spacer" data-height="80"></div>
-      <p class="mb-0">
+    <section id="skills" className="shadow-blue white-bg padding">
+      <h3 className="section-title">My skills</h3>
+      <div className="spacer" data-height="80"></div>
+      <p className="mb-0">
         I am passionate about creating websites that help businesses, make
         people's life easier and find creative solutions for problems &
         challenges.
       </p>
-      <div class="row mt-5">
+      <div className="row mt-5">
         {skills.map((skill) => (
-          <div class="col-sm-4">
-            <div class="skill-item">
-              <div class="skill-info clearfix">
-                <h4 class="mb-3 mt-0">
+          <div className="col-sm-4" key={skill}>
+            <div className="skill-item">
+              <div className="skill-info clearfix ">
+                <h4 className="mb-3 mt-0">
                   <i
-                    class="far fa-dot-circle float-left mr-1"
+                    className="far fa-dot-circle float-left mr-1"
                     style={{
                       fontSize: "20px",
                       color: "#FF5959",
