@@ -18,7 +18,7 @@ const HomePage = () => {
       <Experience />
       <Facts />
       <Process />
-      <Testimonials />
+
       <ContactForm />
     </main>
   );

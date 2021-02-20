@@ -28,14 +28,14 @@ const Navigation = () => {
               style={{ fontSize: "17px" }}
             >
               <li>
-                <a href="#home" className="active">
+                <Link to="/" className="active">
                   <i class="fas fa-home icon-home"></i>Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#about">
+                <Link to="/about">
                   <i class="fas fa-user icon-user"></i>About
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="#services">
@@ -43,21 +43,17 @@ const Navigation = () => {
                 </a>
               </li>
               <li>
-                <a href="#resume">
+                <Link to="/experience">
                   <i class="fas fa-user-graduate icon-graduation"></i>Experience
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#works">
+                <Link to="/portfolio">
                   <i class="fas fa-briefcase icon-grid"></i>
                   Works
-                </a>
+                </Link>
               </li>
-              <li>
-                <a href="#blog">
-                  <i class="fas fa-pencil-alt icon-pencil"></i>Blog
-                </a>
-              </li>
+
               <li>
                 <a href="#contact">
                   <i class="fas fa-phone-alt icon-phone mb-5"></i>Contact
