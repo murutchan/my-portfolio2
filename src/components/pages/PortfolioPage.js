@@ -1,4 +1,6 @@
 import React from "react";
+import nazImg from "../../assets/naz.jpg";
+import spyImg from "../../assets/spy.svg";
 
 const PortfolioPage = () => {
   return (
@@ -9,18 +11,6 @@ const PortfolioPage = () => {
         <ul className="portfolio-filter list-inline">
           <li className="current list-inline-item" data-filter="*">
             All Projects
-          </li>
-          <li className="list-inline-item" data-filter=".branding">
-            Branding
-          </li>
-          <li className="list-inline-item" data-filter=".creative">
-            Creative
-          </li>
-          <li className="list-inline-item" data-filter=".design">
-            Design
-          </li>
-          <li className="list-inline-item" data-filter=".video">
-            Video
           </li>
         </ul>
 
@@ -35,132 +25,42 @@ const PortfolioPage = () => {
         </div>
 
         <div className="row portfolio-wrapper">
-          <div className="col-md-4 col-sm-6 grid-item video">
-            <a href="work-single.html">
+          <div className="col-md-8 col-sm-6 grid-item video">
+            <a href="http://nazbar.netlify.app" target="blank">
               <div className="portfolio-item">
                 <div className="details">
-                  <h4 className="title">Creative Art</h4>
-                  <span className="term">Art, Creative</span>
+                  <h4 className="title">E-commerce</h4>
+                  <span className="term">Naz bar protein</span>
                 </div>
-                <span className="plus-icon">+</span>
+                <span className="plus-icon">Naz bar protein</span>
                 <div className="thumb">
-                  <img
-                    src="https://via.placeholder.com/800x600"
-                    alt="Portfolio-title"
-                  />
+                  <img src={nazImg} alt="Portfolio-title" />
+
                   <div className="mask"></div>
                 </div>
               </div>
             </a>
+          </div>
+          <div className="col-md-4 col-sm-6 grid-item creative design">
+            <h4 className="title">Small Game</h4>
+            <p>Its a e-commerce project for my friend's startup with </p>
           </div>
 
           <div className="col-md-4 col-sm-6 grid-item creative design">
-            <a href="work-single.html">
+            <a href="http://spygame.netlify.app">
               <div className="portfolio-item">
                 <div className="details">
-                  <h4 className="title">Apple USB</h4>
-                  <span className="term">Creative, Design</span>
+                  <h4 className="title">Small Game</h4>
+                  <span className="term">Spy Game</span>
                 </div>
-                <span className="plus-icon">+</span>
+                <span className="plus-icon">SPY</span>
                 <div className="thumb">
-                  <img
-                    src="https://via.placeholder.com/800x600"
-                    alt="Portfolio-title"
-                  />
+                  <h1>Spy game</h1>
                   <div className="mask"></div>
                 </div>
               </div>
             </a>
           </div>
-
-          <div className="col-md-4 col-sm-6 grid-item branding">
-            <a href="work-single.html">
-              <div className="portfolio-item">
-                <div className="details">
-                  <h4 className="title">Work Space</h4>
-                  <span className="term">Branding</span>
-                </div>
-                <span className="plus-icon">+</span>
-                <div className="thumb">
-                  <img
-                    src="https://via.placeholder.com/800x600"
-                    alt="Portfolio-title"
-                  />
-                  <div className="mask"></div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div className="col-md-4 col-sm-6 grid-item creative">
-            <a href="work-single.html">
-              <div className="portfolio-item">
-                <div className="details">
-                  <h4 className="title">Creative Bulb</h4>
-                  <span className="term">Creative</span>
-                </div>
-                <span className="plus-icon">+</span>
-                <div className="thumb">
-                  <img
-                    src="https://via.placeholder.com/800x600"
-                    alt="Portfolio-title"
-                  />
-                  <div className="mask"></div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div className="col-md-4 col-sm-6 grid-item video branding">
-            <a href="work-single.html">
-              <div className="portfolio-item">
-                <div className="details">
-                  <h4 className="title">iPhone 8</h4>
-                  <span className="term">Art, Branding</span>
-                </div>
-                <span className="plus-icon">+</span>
-                <div className="thumb">
-                  <img
-                    src="https://via.placeholder.com/800x600"
-                    alt="Portfolio-title"
-                  />
-                  <div className="mask"></div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div className="col-md-4 col-sm-6 grid-item creative design">
-            <a href="work-single.html">
-              <div className="portfolio-item">
-                <div className="details">
-                  <h4 className="title">Minimal Art</h4>
-                  <span className="term">Design, Creative</span>
-                </div>
-                <span className="plus-icon">+</span>
-                <div className="thumb">
-                  <img
-                    src="https://via.placeholder.com/800x600"
-                    alt="Portfolio-title"
-                  />
-                  <div className="mask"></div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div className="load-more text-center mt-4">
-          <a href="javascript:" className="btn btn-default">
-            <i className="fas fa-circle-notch"></i> Load more
-          </a>
-          {/* <!-- numbered pagination (hidden for infinite scroll) --> */}
-          <ul className="portfolio-pagination list-inline d-none">
-            <li className="list-inline-item">1</li>
-            <li className="list-inline-item">
-              <a href="works-2.html">2</a>
-            </li>
-          </ul>
         </div>
       </section>
     </main>
