@@ -1,6 +1,5 @@
 import React from "react";
 import nazImg from "../../assets/naz.jpg";
-import spyImg from "../../assets/spy.svg";
 
 const PortfolioPage = () => {
   return (

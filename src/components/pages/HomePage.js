@@ -2,7 +2,7 @@ import React from "react";
 
 import MainPage from "../MainPage";
 import About from "../About";
-import Skills from "../Skills";
+// import Skills from "../Skills";
 import Experience from "../Experience";
 
 import ContactForm from "../ContactForm";
@@ -14,7 +14,7 @@ const HomePage = () => {
     <main className="content float-right">
       <MainPage />
       <About />
-      <Skills />
+      {/* <Skills /> */}
       <Experience />
       <Facts />
       <Process />
