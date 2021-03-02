@@ -56,7 +56,7 @@ const Navigation = () => {
               </li>
 
               <li>
-                <a href="#contact">
+                <a href="/contact">
                   <i className="fas fa-phone-alt icon-phone mb-5"></i>Contact
                 </a>
               </li>
