@@ -1,23 +1,23 @@
 import React, { useState } from "react";
 
 const ContactForm = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   subject: "",
+  //   message: "",
+  // });
 
   const [successMessage, setSuccessMessage] = useState(false);
 
-  const onFormSubmit = (e) => {
-    e.preventDefault();
-    setFormData({ ...formData });
-    setSuccessMessage(true);
-  };
-  const onChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
+  // const onFormSubmit = (e) => {
+  //   e.preventDefault();
+  //   setFormData({ ...formData });
+  //   setSuccessMessage(true);
+  // };
+  // const onChange = (e) => {
+  //   setFormData({ ...formData, [e.target.name]: e.target.value });
+  // };
 
   return (
     <section id="contact" className="shadow-blue white-bg padding">
@@ -51,12 +51,11 @@ const ContactForm = () => {
 
         <div className="col-md-8">
           <form
-            name="contact"
+            action="https://formsubmit.co/murutchan@gmail.com"
             method="POST"
-            data-netlify="true"
             id="contact-form"
             className="contact-form"
-            onSubmit={(e) => onFormSubmit(e)}
+            // onSubmit={(e) => onFormSubmit(e)}
           >
             <div className="messages"></div>
 
@@ -71,7 +70,7 @@ const ContactForm = () => {
                     placeholder="Your name"
                     required
                     data-error="Name is required."
-                    onChange={(e) => onChange(e)}
+                    // onChange={(e) => onChange(e)}
                   />
                   <div className="help-block with-errors"></div>
                 </div>
@@ -87,7 +86,7 @@ const ContactForm = () => {
                     placeholder="Email address"
                     required
                     data-error="Email is required."
-                    onChange={(e) => onChange(e)}
+                    // onChange={(e) => onChange(e)}
                   />
                   <div className="help-block with-errors"></div>
                 </div>
@@ -103,7 +102,7 @@ const ContactForm = () => {
                     placeholder="Subject"
                     required
                     data-error="Subject is required."
-                    onChange={(e) => onChange(e)}
+                    //   onChange={(e) => onChange(e)}
                   />
                   <div className="help-block with-errors"></div>
                 </div>
@@ -119,7 +118,7 @@ const ContactForm = () => {
                     placeholder="Message"
                     required
                     data-error="Message is required."
-                    onChange={(e) => onChange(e)}
+                    // onChange={(e) => onChange(e)}
                   ></textarea>
                   <div className="help-block with-errors"></div>
                 </div>
