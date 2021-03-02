@@ -70,19 +70,15 @@ const Navigation = () => {
                   <i className="fab fa-github"></i>
                 </a>
               </li>
-              <li className="list-inline-item">
-                <a href="https://instagram.com" target="blank">
-                  <i className="fab fa-instagram"></i>
-                </a>
-              </li>
+
               <li className="list-inline-item">
                 <a href="#">
-                  <i className="fab fa-youtube"></i>
+                  <i className="fab fa-linkedin"></i>
                 </a>
               </li>
             </ul>
 
-            <span className="copyright">© 2021 webby devvys</span>
+            <span className="copyright">© 2021 Askar Talantbek uulu</span>
           </div>
         </div>
       </header>

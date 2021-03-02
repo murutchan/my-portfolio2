@@ -25,7 +25,7 @@ const PortfolioPage = () => {
         </div>
 
         <div className="row portfolio-wrapper">
-          <div className="col-md-8 col-sm-6 grid-item video">
+          <div className="col-md-6 mx-auto col-sm-12 grid-item video mt-5">
             <a href="http://nazbar.netlify.app" target="blank">
               <div className="portfolio-item">
                 <div className="details">
@@ -41,9 +41,19 @@ const PortfolioPage = () => {
               </div>
             </a>
           </div>
-          <div className="col-md-4 col-sm-6 grid-item creative design">
-            <h4 className="title">Small Game</h4>
-            <p>Its a e-commerce project for my friend's startup with </p>
+          <div className="col-md-6 col-sm-6 grid-item creative design">
+            <a href="http://nazbar.netlify.com">
+              {" "}
+              <h4 className="title text-primary">www.nazprotein.com</h4>
+            </a>
+            <p>
+              Its a fullstack e-commerce website for a startup. Customer's can
+              buy product on the website, owner has a dashboard where he can
+              manage products, sales, discounts etc .<br />
+              <strong>Frontend</strong>: React, Redux, axios, StripeCheckout,
+              Bootstrap,SASS. <br></br>
+              <strong>Backend:</strong> Node, express, mongodb, jwt, bcrypt
+            </p>
           </div>
 
           <div className="col-md-4 col-sm-6 grid-item creative design">

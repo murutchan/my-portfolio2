@@ -10,10 +10,10 @@ const ExperiencePage = () => {
         <div className="timeline">
           <div className="entry">
             <div className="title">
-              <span>2019 - Present</span>
+              <span>09/2019 - Present</span>
             </div>
             <div className="body">
-              <h4 className="mt-0">Academic Degree</h4>
+              <h4 className="mt-0">Frontend Engineer at Echo</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean
                 commodo ligula eget dolor aenean massa.
