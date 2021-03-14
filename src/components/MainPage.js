@@ -14,8 +14,8 @@ const MainPage = () => {
         </h1>
         <p className="mb-4">
           I am a web developer with 3+ years of experience. My expertise are in
-          React.js, Javascript, SASS, HTML5 & CSS3 and I am comfortable working
-          with Node.js, mongoDB, express.js.
+          React.js, Javascript, SASS, HTML5 & CSS3, BOOTSTRAP and I am
+          comfortable working with Node.js, mongoDB, express.js.
         </p>
         <Link to="/portfolio" className="btn btn-default btn-lg mr-3">
           <i className="fas fa-th-large icon-grid"></i>View Portfolio
