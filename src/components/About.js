@@ -47,7 +47,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <a href="#" className="btn btn-default mr-3">
+          <a href="/resume-askar.pdf" download className="btn btn-default mr-3">
             <i className="fas fa-download icon-envelope"></i>Resume
           </a>
           <Link to="/about" className="btn btn-alt mt-2 mt-md-0 mt-xs-2">

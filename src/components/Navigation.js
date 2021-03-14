@@ -72,7 +72,7 @@ const Navigation = () => {
               </li>
 
               <li className="list-inline-item">
-                <a href="#">
+                <a href="https://linkedin.com/in/askart">
                   <i className="fab fa-linkedin"></i>
                 </a>
               </li>

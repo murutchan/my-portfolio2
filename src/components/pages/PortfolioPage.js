@@ -1,5 +1,7 @@
 import React from "react";
 import nazImg from "../../assets/naz.jpg";
+import groupGame from "../../assets/group-game.jpg";
+import clothingStore from "../../assets/clothing-store.jpg";
 
 const PortfolioPage = () => {
   return (
@@ -33,7 +35,7 @@ const PortfolioPage = () => {
           <div className="col-md-6 col-sm-6 grid-item creative design">
             <a href="http://nazbar.netlify.com">
               {" "}
-              <h4 className="title text-primary">www.nazprotein.com</h4>
+              <h4 className="title text-primary">www.nazprotein.com(beta)</h4>
             </a>
             <p>
               Its a fullstack e-commerce website for a startup. Customer's can
@@ -55,7 +57,7 @@ const PortfolioPage = () => {
                 </div>
                 <span className="plus-icon">Spy</span>
                 <div className="thumb">
-                  <img src={nazImg} alt="Portfolio-title" />
+                  <img src={groupGame} alt="Portfolio-title" />
 
                   <div className="mask"></div>
                 </div>
@@ -65,12 +67,43 @@ const PortfolioPage = () => {
           <div className="col-md-6 col-sm-6 grid-item creative design">
             <a href="http://spygame.netlify.com">
               {" "}
-              <h4 className="title text-primary">www.spygame.com</h4>
+              <h4 className="title text-primary">Spy Game</h4>
             </a>
             It's a small game for groups up to 10-12 people. I made this game
             for my friends. We have dinners every 3 weeks, so I thought we need
             a game where we could just sit and play. This game gives us a lot of
-            laughters and joy. You can try to play too.
+            laughters and joy. <br />
+            <span className="text-dark"> You can try... :)</span>
+          </div>
+        </div>
+        <div className="row portfolio-wrapper">
+          <div className="col-md-6 mx-auto col-sm-12 grid-item video mt-5">
+            <a href="http://askarclothingstore.netlify.app" target="blank">
+              <div className="portfolio-item">
+                <div className="details">
+                  <h4 className="title">Clothing-store</h4>
+                  <span className="term">E-commerce</span>
+                </div>
+                <span className="plus-icon">Spy</span>
+                <div className="thumb">
+                  <img src={clothingStore} alt="Portfolio-title" />
+
+                  <div className="mask"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div className="col-md-6 col-sm-6 grid-item creative design">
+            <a href="http://askarclothingstore.netlify.app">
+              {" "}
+              <h4 className="title text-primary">Clothing Store</h4>
+            </a>
+            Its a mockup clothing store website. I implemented simple
+            authentication with Google Sign in and Firebase. I used redux to
+            manage cart items and store list.
+            <br />
+            <strong>Frontend</strong>: React, Redux,Redux persist, react hooks
+            ,axios, Bootstrap,SASS, Javascript <br></br>
           </div>
         </div>
       </section>
