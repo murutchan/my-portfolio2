@@ -7,7 +7,7 @@ const ContactPage = () => {
   };
 
   useEffect(() => {
-    scrollTo(150);
+    scrollTo(50);
   }, []);
 
   const [formData, setFormData] = useState({
@@ -60,6 +60,8 @@ const ContactPage = () => {
           </div>
 
           <div className="col-md-8">
+            <h5>please fill up the form</h5>
+
             <form
               name="contact"
               action="POST"
