@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { animateScroll as scroll } from "react-scroll";
+
 import nazImg from "../../assets/naz.jpg";
 import groupGame from "../../assets/group-game.jpg";
 import clothingStore from "../../assets/clothing-store.jpg";
 
 const PortfolioPage = () => {
+  const scrollTo = (n) => {
+    return scroll.scrollTo(n);
+  };
+
+  useEffect(() => {
+    scrollTo(50);
+  }, []);
   return (
     <main className="content float-right">
       <section className="shadow-blue white-bg padding">
@@ -84,7 +93,7 @@ const PortfolioPage = () => {
                   <h4 className="title">Clothing-store</h4>
                   <span className="term">E-commerce</span>
                 </div>
-                <span className="plus-icon">Spy</span>
+                <span className="plus-icon">LV</span>
                 <div className="thumb">
                   <img src={clothingStore} alt="Portfolio-title" />
 

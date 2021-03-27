@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import * as Scroll from "react-scroll";
 
 const MainPage = () => {
+  //scroller library
+  let Anchor = Scroll.Link;
   return (
     <section
       className="hero background parallax shadow-dark d-flex align-items-center"
@@ -24,9 +27,15 @@ const MainPage = () => {
           className="spacer d-md-none d-lg-none d-sm-none"
           data-height="10"
         ></div>
-        <a href="#contact" className="btn btn-border-light btn-lg">
+        <Anchor
+          to="contact"
+          smooth={true}
+          offset={-75}
+          duration={2000}
+          className="btn btn-border-light btn-lg"
+        >
           <i className="fas fa-envelope icon-envelope"></i>Contact me
-        </a>
+        </Anchor>
       </div>
       <div className="overlay"></div>
     </section>

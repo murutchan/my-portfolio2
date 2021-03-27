@@ -1,6 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { animateScroll as scroll } from "react-scroll";
 
 const ContactPage = () => {
+  const scrollTo = (n) => {
+    return scroll.scrollTo(n);
+  };
+
+  useEffect(() => {
+    scrollTo(150);
+  }, []);
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",

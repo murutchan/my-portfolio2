@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { animateScroll as scroll } from "react-scroll";
 
 const ExperiencePage = () => {
+  const scrollTo = (n) => {
+    return scroll.scrollTo(n);
+  };
+
+  useEffect(() => {
+    scrollTo(50);
+  }, []);
   return (
     <main className="content float-right">
       <section id="resume" className="shadow-blue white-bg padding">
@@ -10,7 +18,7 @@ const ExperiencePage = () => {
         <div className="timeline">
           <div className="entry">
             <div className="title">
-              <span>09/2019 - Present</span>
+              <span>05/2019 - Present</span>
             </div>
             <div className="body">
               <h4 className="mt-0">Frontend Engineer at Echo</h4>
@@ -31,7 +39,7 @@ const ExperiencePage = () => {
           </div>
           <div className="entry">
             <div className="title">
-              <span>10/2017 - 08/2019</span>
+              <span>10/2017 - 04/2019</span>
             </div>
             <div className="body">
               <h4 className="mt-0">Frontend engineer at Yurtah</h4>

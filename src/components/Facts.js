@@ -32,7 +32,7 @@ const Facts = () => {
         <div className="col-md-3 col-sm-6">
           <div className="fact-item text-center">
             <i className="fas fa-pen-fancy icon-circle"></i>
-            <h2 className="count">2+</h2>
+            <h2 className="count">3+</h2>
             <span>Years of Experience</span>
           </div>
         </div>

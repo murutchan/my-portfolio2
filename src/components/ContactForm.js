@@ -1,23 +1,7 @@
 import React, { useState } from "react";
 
 const ContactForm = () => {
-  // const [formData, setFormData] = useState({
-  //   name: "",
-  //   email: "",
-  //   subject: "",
-  //   message: "",
-  // });
-
   const [successMessage, setSuccessMessage] = useState(false);
-
-  // const onFormSubmit = (e) => {
-  //   e.preventDefault();
-  //   setFormData({ ...formData });
-  //   setSuccessMessage(true);
-  // };
-  // const onChange = (e) => {
-  //   setFormData({ ...formData, [e.target.name]: e.target.value });
-  // };
 
   return (
     <section id="contact" className="shadow-blue white-bg padding">
@@ -50,6 +34,8 @@ const ContactForm = () => {
         </div>
 
         <div className="col-md-8">
+          <h5 className="section-title">please fill up the form</h5>
+          <div className="spacer" data-height="80"></div>
           <form
             action="https://formsubmit.co/murutchan@gmail.com"
             method="POST"

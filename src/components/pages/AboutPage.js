@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { animateScroll as scroll } from "react-scroll";
 
 const AboutPage = () => {
+  const scrollTo = (n) => {
+    return scroll.scrollTo(n);
+  };
+
+  useEffect(() => {
+    scrollTo(50);
+  }, []);
   return (
     <main className="content float-right">
       <section className="shadow-blue white-bg padding">
@@ -34,7 +42,7 @@ const AboutPage = () => {
             <p className="mb-0 text-dark">
               I started working as a taxi driver in Chicago. Believe it or not,
               I never drove a car before a taxi. So imagine passing the taxi
-              written exam and driving exam. I used to take a blue line train to
+              written and driving exam. I used to take a blue line train to
               Olive Harvey city college, where I studied for the taxi license.
               Train used to take 2 hours one way, with changing blue to red line
               in downtown. FYI: to pass the exam, you need to memorize all the
@@ -46,7 +54,7 @@ const AboutPage = () => {
               In my first day shift, I gave all my rides for free, because
               learning from a book and actual driving was waaaaay different. So
               I used to ask for direction, and people were nice. I am very
-              thankful for those wonderful people for giving encouragement. I
+              thankful for those wonderful people for their encouragement. I
               believe, as a stranger the best thing you can do is encourage
               people.I remember one of my customers words: "You did a great job,
               my young friend. You will be OK, dont worry" and gave me 20$ tip.

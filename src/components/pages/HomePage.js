@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { animateScroll as scroll } from "react-scroll";
 
 import MainPage from "../MainPage";
 import About from "../About";
@@ -10,6 +11,13 @@ import Facts from "../Facts";
 import Process from "../Process";
 
 const HomePage = () => {
+  const scrollTo = (n) => {
+    return scroll.scrollTo(n);
+  };
+
+  useEffect(() => {
+    scrollTo(8);
+  }, []);
   return (
     <main className="content float-right">
       <MainPage />
